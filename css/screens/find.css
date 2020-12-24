@@ -39,6 +39,10 @@
   color: var(--gray);
 }
 
+.open-chats__header i {
+  margin-left: 5px;
+}
+
 .open-post {
   display: flex;
   justify-content: space-between;
