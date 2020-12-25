@@ -1,0 +1,19 @@
+.icon-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.icon-row__icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-row__icons span {
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.icon-row__icons span {
+  margin: 18px 0px;
+}

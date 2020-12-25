@@ -16,12 +16,13 @@
 .user-component__title {
   font-weight: 600;
   font-size: 22px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 .user-component__subtitle {
   margin-top: 5px;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.5);
   font-size: 15px;
+  margin-left: 10px;
 }
 .user-component__avatar--xl {
   width: 80px;
@@ -49,4 +50,9 @@
 .user-component__time {
   display: block;
   margin-bottom: 15px;
+}
+
+.user-component__subtitle i {
+  margin-left: 5px;
+  color: tomato;
 }
