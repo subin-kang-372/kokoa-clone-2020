@@ -39,14 +39,51 @@
 </header>
 
 
-<main class="main-screen chat">
+<main class="main-screen main-chat">
     <div class="chat__timestamp">
         Thuseday, June 30, 2020
     </div>
 
+    <div class="message-row">
+        <img src="https://pht.qoo-static.com/KwGCiEolNEeR9Q4RFOnDtb8Pvqs3LNiQEdE07wMCnoULO3yLUprHbGGLBYNEt8k7WJY=w512">
+        <div class="message-row__content">
+            <span class="message__author">Subin</span>
+            <div class="massage__info">
+                <span class="message__bubble">Hi!</span>
+                <span class="message__time">21:27</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="message-row message-row--own">
+      <div class="message-row__content">
+            <div class="massage__info">
+                <span class="message__bubble">Hi! nice to meet you!</span>
+                <span class="message__time">21:27</span>
+            </div>
+        </div>
+    </div>
+
 </main>
 
+<form class="reply">
+    <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
 
+    </div>
+    <div class="reply__column">
+        <input type="text" placeholder="Write a message.."/>
+
+        <i class="far fa-smile-beam fa-lg"></i>
+        <button>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+</form>
+
+<div id="no-mobile">
+    <span>your screen is too big</span>
+</div>
     <script
     src="https://kit.fontawesome.com/6478f529f2.js"
     crossorigin="anonymous"
